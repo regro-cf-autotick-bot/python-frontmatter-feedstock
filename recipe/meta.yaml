@@ -1,5 +1,5 @@
 {% set name = "python-frontmatter" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-frontmatter-{{ version }}.tar.gz
-  sha256: e98152e977225ddafea6f01f40b4b0f1de175766322004c826ca99842d19a7cd
+  sha256: a6a082844fc601f34e4dd576bed8fcb5ef19112166e087629e4d6ba9bf4f7c35
 
 build:
   noarch: python
